@@ -7,7 +7,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = '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'
+openai.api_key = 'api-key'
 
 @app.route('/execute-script', methods=['POST'])
 def execute_script():
